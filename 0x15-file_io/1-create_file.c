@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * creat_file - prog creates a file
+ * create_file - prog creates a file
  * @filename: filename.
  * @text_content: content writed in the file.
  * Return: 1 if it success, -1 if it fails.
