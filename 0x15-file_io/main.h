@@ -7,7 +7,12 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <string.h>
 
+void error_98(int f0, char *buffer, char *argv);
+void error_99(int f0, char *buffer, char *argv);
+void error_100(int f0, char *buffer);
+int main(int argc, char **argv);
 int _putchar(char c);
 int _strlen(char *str);
 ssize_t read_textfile(const char *filename, size_t letters);
